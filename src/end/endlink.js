@@ -1,5 +1,6 @@
-import './thundershock4.css'
-function thundershock4(){
+import './end.css'
+function end(){
+
 
     let container = document.createElement('div');
     container.style.width = '100%';
@@ -9,68 +10,57 @@ function thundershock4(){
     
     let titleindex = document.createElement('h1');
     titleindex.id="h1_thundershock";
-    titleindex.innerHTML = "Your Used Thundershock!";
+    titleindex.innerHTML = "You have Defeated your Rival!";
     container.appendChild(titleindex);
 
     let paragraph = document.createElement('p');
     paragraph.id ="p1_thundershock";
-    paragraph.innerHTML = "Your Pikachu Used Thundershock! It reduced Eevee health Points!";
+    paragraph.innerHTML = "After a tough battle, you have defeated your rival. You have earned some respect (and cash too!). Let's Prepare for your next battle...";
     container.appendChild(paragraph);
     let br = document.createElement('br');
     container.appendChild(br);
     container.appendChild(br);
 
-    let paragraph2 = document.createElement('p');
-    paragraph2.id ="p2_thundershock";
-    paragraph2.innerHTML = "Eevee Fainted!";
-    container.appendChild(paragraph2);
+
 
     let container2 = document.createElement('div');
-    container2.id="figure_thundershock";
+    container2.id="encounter_img";
     container.appendChild(container2);
     
     let figure = document.createElement('figure');
     figure.id = 'figure';
     container2.appendChild(figure);
-    let video = document.createElement('video');
-    video.id = 'video';
-    video.width = 540;
-    video.height = 320;
-    video.controls;
-    let videosrc = document.createElement('source');
-    videosrc.src = '../source/Shock_4.mp4';
-    videosrc.type = 'video/mp4';
-    video.appendChild(videosrc);
-    container2.appendChild(video);
-    
+    let image = document.createElement('img');
+    image.id = 'image';
+    image.alt = "Wild Pikachu in a Pokéball";
+    image.src = '../source/Shot_3.jpg';
+    image.width = 540;
+    image.height = 320;
+    container2.appendChild(image);
     let caption = document.createElement('figcaption');
     caption.id = 'caption_thundershock';
     caption.innerHTML = "Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd";
     container2.appendChild(caption);
-    let paragraph3 = document.createElement('p');
-    paragraph3.id ="p3_thundershock";
-    paragraph3.innerHTML = "You Defeated Your Rival!";
-    container.appendChild(paragraph3);
 
-    let details = document.createElement('details');
-    details.id = 'details_thundershock';
-    let summary = document.createElement('summary');
-    summary.id = 'summary_thundershock';
-    summary.innerHTML = 'Battle Moves (dropdown)';
+    let paragraph2 = document.createElement('p');
+    paragraph2.id ="p2_thundershock";
+    paragraph2.innerHTML = "If you want to re-start the story:";
+    container.appendChild(paragraph2);
+
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
-    listindex.id = 'list1';
+    container.appendChild(list)
+    listindex.id = 'link_';
     list.appendChild(listindex);
-    let link1 = document.createElement('a');
-    link1.id = 'link1';
-    link1.innerHTML ="Finish Story";
-    link1.href='../end/end.html';
-    listindex.appendChild(link1);
-    container.appendChild(details);
+    let link = document.createElement('a');
+    link.id = 'link_catch';
+    link.innerHTML = "Go back to beggining";
+    link.href='../index/index.html';
+    listindex.appendChild(link);
     container.appendChild(br);
     
     let container3 = document.createElement('div');
-    container3.id = 'footer';
+    container3.id = 'catch_file';
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
@@ -81,9 +71,10 @@ function thundershock4(){
     container3.appendChild(br);
     progress.id = 'file';
     progress.max='100';
-    progress.value = '87.50';
+    progress.value = '100.00';
     container3.appendChild(progress);
 
-    document.getElementById('thundershock4').appendChild(container);
+    document.getElementById('end').appendChild(container);
+
 
 }
