@@ -1,7 +1,6 @@
-import './encounter.css'
+import "./catch.css"
 
-function encounter(){
-
+function catchs(){
     let container = document.createElement('div');
     container.style.width = '100%';
     container.style.height = '100%';
@@ -9,31 +8,39 @@ function encounter(){
     container.className = 'container'
     
     let titleindex = document.createElement('h1');
-    titleindex.id="header_encounter";
-    titleindex.innerHTML = "Encounter with Pikachu";
+    titleindex.id="header_catch";
+    titleindex.innerHTML = "Catching your first Pokémon!";
     container.appendChild(titleindex);
 
     let paragraph = document.createElement('p');
-    paragraph.id ="p_encounter";
-    paragraph.innerHTML = " You are starting your journey as a Pokémon trainer, as soon as you leave your house you encounter a wild Pikachu in the tall grass! It's time to catch your first Pokémon.";
+    paragraph.id ="p_catch1";
+    paragraph.innerHTML = "After throwing a Pokéball, you managed to catch Pikachu with ease as it was meant to happen. You realized that your rival was getting a Pokémon from Prof. Oak.";
     container.appendChild(paragraph);
+    let br = document.createElement('br');
+    container.appendChild(br);
+    container.appendChild(br);
+
+    let paragraph2 = document.createElement('p');
+    paragraph2.id ="p_catch2";
+    paragraph2.innerHTML = "It's time to have your first Pokémon Battle!";
+    container.appendChild(paragraph2);
 
     let container2 = document.createElement('div');
     container2.id="encounter_img";
     container.appendChild(container2);
-
+    
     let figure = document.createElement('figure');
-    figure.id = 'figure_encounter';
+    figure.id = 'figure';
     container2.appendChild(figure);
     let image = document.createElement('img');
     image.id = 'image';
-    image.alt = 'Wild Pikachu';
-    image.src = '../souce.SHot_1.jpg';
+    image.alt = "Wild Pikachu in a Pokéball";
+    image.src = '../source/Shot_2.jpg';
     image.width = 540;
     image.height = 320;
     container2.appendChild(image);
     let caption = document.createElement('figcaption');
-    caption.id = 'caption_encounter';
+    caption.id = 'caption';
     caption.innerHTML = "Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd";
     container2.appendChild(caption);
 
@@ -42,28 +49,32 @@ function encounter(){
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
     container.appendChild(list)
-    listindex.id = 'list_encounter';
+    listindex.id = 'link_';
     list.appendChild(listindex);
     let link = document.createElement('a');
-    link.id = 'link';
-    link.innerHTML ="Throw Pokéball";
-    link.href='../catch/catch.html';
+    link.id = 'link_catch';
+    link.innerHTML = "Let's Battle Your Eternal Rival";
+    link.href='../rival/rival.html';
     listindex.appendChild(link);
-
+    container.appendChild(br);
+    
     let container3 = document.createElement('div');
-    container3.id = 'list';
+    container3.id = 'catch_file';
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
     label.innerHTML= 'Story progress';
     container3.appendChild(label);
     let progress = document.createElement('progress');
-    let br = document.createElement('br');
+    
     container3.appendChild(br);
     progress.id = 'file';
     progress.max='100';
-    progress.value = '12.50';
+    progress.value = '25.00';
     container3.appendChild(progress);
 
-    document.getElementById('encounter').appendChild(container);
+    document.getElementById('catch').appendChild(container);
 }
+
+
+

@@ -20,7 +20,7 @@ function index(){
 
         let paragraph2 = document.createElement('p');
         paragraph2.id='p2_index';
-        paragraph2.innerText = "Should we start?";
+        paragraph2.innerHTML = "Should we start?";
         container.appendChild(paragraph2);
 
         let list = document.createElement('ul');
