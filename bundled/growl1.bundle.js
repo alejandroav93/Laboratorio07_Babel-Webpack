@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _gro
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0edf03d7df8e22ced75b.jpg\";\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/background_scroll.jpg?");
+eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/background_scroll.jpg?");
 
 /***/ })
 
