@@ -1,4 +1,5 @@
 import './encounter.css'
+import {imagecatch} from './encounter.js'
 
 function encounter(){
 
@@ -10,11 +11,13 @@ function encounter(){
     
     let titleindex = document.createElement('h1');
     titleindex.id="header_encounter";
+    titleindex.className="header_encounter";
     titleindex.innerHTML = "Encounter with Pikachu";
     container.appendChild(titleindex);
 
     let paragraph = document.createElement('p');
     paragraph.id ="p_encounter";
+    paragraph.className ="p_encounter";
     paragraph.innerHTML = " You are starting your journey as a Pokémon trainer, as soon as you leave your house you encounter a wild Pikachu in the tall grass! It's time to catch your first Pokémon.";
     container.appendChild(paragraph);
 
@@ -22,48 +25,39 @@ function encounter(){
     container2.id="encounter_img";
     container.appendChild(container2);
 
-    let figure = document.createElement('figure');
-    figure.id = 'figure_encounter';
-    container2.appendChild(figure);
-    let image = document.createElement('img');
-    image.id = 'image';
-    image.alt = 'Wild Pikachu';
-    image.src = '../souce.SHot_1.jpg';
-    image.width = 540;
-    image.height = 320;
-    container2.appendChild(image);
-    let caption = document.createElement('figcaption');
-    caption.id = 'caption_encounter';
-    caption.innerHTML = "Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd";
-    container2.appendChild(caption);
-
-
+    container2 = imagecatch(container2);
 
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
     container.appendChild(list)
     listindex.id = 'list_encounter';
+    listindex.className = 'list_encounter';
     list.appendChild(listindex);
     let link = document.createElement('a');
     link.id = 'link';
+    link.className = 'link';
     link.innerHTML ="Throw Pokéball";
     link.href='../catch/catch.html';
     listindex.appendChild(link);
 
     let container3 = document.createElement('div');
     container3.id = 'list';
+    container3.className = 'list';
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
+    label.className = 'label_file';
     label.innerHTML= 'Story progress';
     container3.appendChild(label);
     let progress = document.createElement('progress');
     let br = document.createElement('br');
     container3.appendChild(br);
     progress.id = 'file';
+    progress.className = 'file';
     progress.max='100';
     progress.value = '12.50';
     container3.appendChild(progress);
 
     document.getElementById('encounter').appendChild(container);
 }
+encounter();

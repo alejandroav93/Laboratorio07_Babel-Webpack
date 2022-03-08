@@ -1,0 +1,33 @@
+{
+  "name": "laboratorio07_babel-webpack",
+  "version": "1.0.0",
+  "description": "Laboratorio07_Babel+Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandroav93/Laboratorio07_Babel-Webpack.git"
+  },
+  "author": "Alejandro Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroav93/Laboratorio07_Babel-Webpack/issues"
+  },
+  "homepage": "https://github.com/alejandroav93/Laboratorio07_Babel-Webpack#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1"
+  }
+}

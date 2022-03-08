@@ -1,4 +1,5 @@
 import './tailwhip2.css'
+import {imagecatch} from './tailwhip2.js'
 function tailwhip2(){
 
     let container = document.createElement('div');
@@ -28,19 +29,8 @@ function tailwhip2(){
     container2.id="figure_growl";
     container.appendChild(container2);
     
-    let figure = document.createElement('figure');
-    figure.id = 'figure';
-    container2.appendChild(figure);
-    let video = document.createElement('video');
-    video.id = 'video';
-    video.width = 540;
-    video.height = 320;
-    video.controls;
-    let videosrc = document.createElement('source');
-    videosrc.src = '../source/Tail_Whip_.mp4';
-    videosrc.type = 'video/mp4';
-    video.appendChild(videosrc);
-    container2.appendChild(video);
+    container2 = imagecatch(container2);
+
     
     let caption = document.createElement('figcaption');
     caption.id = 'caption_growl';
@@ -50,31 +40,39 @@ function tailwhip2(){
 
     let details = document.createElement('details');
     details.id = 'details_growl';
+    details.className = 'details_growl';
     let summary = document.createElement('summary');
     summary.id = 'summary_growl';
+    summary.className = 'summary_growl';
     summary.innerHTML = 'Battle Moves (dropdown)';
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
     listindex.id = 'list1';
+    listindex.className = 'list1';
     list.appendChild(listindex);
     let listindex2 = document.createElement('li');
-    listindex.id = 'list2';
+    listindex2.id = 'list2';
+    listindex2.className = 'list2';
     list.appendChild(listindex2);
     let listindex3 = document.createElement('li');
-    listindex.id = 'list3';
+    listindex3.id = 'list3';
+    listindex3.className = 'list3';
     list.appendChild(listindex3);
     let link1 = document.createElement('a');
     link1.id = 'link1';
+    link1.className = 'link1';
     link1.innerHTML ="Thundershock";
     link1.href='../thundershock2/thundershock2.html';
     listindex.appendChild(link1);
     let link2 = document.createElement('a');
     link2.id = 'link2';
+    link2.className = 'link2';
     link2.innerHTML = "Tail Whip";
     link2.href='../tailwhip2/tailwhip2.html';
     listindex.appendChild(link2);
     let link3 = document.createElement('a');
     link3.id = 'link3';
+    link3.className = 'link3';
     link3.innerHTML = "Growl";
     link3.href='../growl2/growl2.html';
     listindex.appendChild(link3);
@@ -83,15 +81,18 @@ function tailwhip2(){
     
     let container3 = document.createElement('div');
     container3.id = 'footer';
+    container3.className = 'footer';
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
+    label.className = 'label_file';
     label.innerHTML= 'Story progress';
     container3.appendChild(label);
     let progress = document.createElement('progress');
     
     container3.appendChild(br);
     progress.id = 'file';
+    progress.className = 'file';
     progress.max='100';
     progress.value = '50';
     container3.appendChild(progress);
@@ -99,3 +100,4 @@ function tailwhip2(){
     document.getElementById('tailwhip2').appendChild(container);
 
 }
+tailwhip2();

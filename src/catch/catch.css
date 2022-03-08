@@ -2,7 +2,7 @@
     display:inherit;
     height: 100vh;
     font-family: "Open Sans", sans-serif;
-    background-image: url("source/background_scroll.jpg");
+    background-image: url("../source/background_scroll.jpg");
   }
  
   .p_catch1{

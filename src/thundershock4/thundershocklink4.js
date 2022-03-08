@@ -1,4 +1,5 @@
 import './thundershock4.css'
+import {imagecatch} from './thundershock4.js'
 function thundershock4(){
 
     let container = document.createElement('div');
@@ -9,11 +10,13 @@ function thundershock4(){
     
     let titleindex = document.createElement('h1');
     titleindex.id="h1_thundershock";
+    titleindex.className="h1_thundershock";
     titleindex.innerHTML = "Your Used Thundershock!";
     container.appendChild(titleindex);
 
     let paragraph = document.createElement('p');
     paragraph.id ="p1_thundershock";
+    paragraph.className ="p1_thundershock";
     paragraph.innerHTML = "Your Pikachu Used Thundershock! It reduced Eevee health Points!";
     container.appendChild(paragraph);
     let br = document.createElement('br');
@@ -22,47 +25,44 @@ function thundershock4(){
 
     let paragraph2 = document.createElement('p');
     paragraph2.id ="p2_thundershock";
+    paragraph2.className ="p2_thundershock";
     paragraph2.innerHTML = "Eevee Fainted!";
     container.appendChild(paragraph2);
 
     let container2 = document.createElement('div');
     container2.id="figure_thundershock";
+    container2.className="figure_thundershock";
     container.appendChild(container2);
     
-    let figure = document.createElement('figure');
-    figure.id = 'figure';
-    container2.appendChild(figure);
-    let video = document.createElement('video');
-    video.id = 'video';
-    video.width = 540;
-    video.height = 320;
-    video.controls;
-    let videosrc = document.createElement('source');
-    videosrc.src = '../source/Shock_4.mp4';
-    videosrc.type = 'video/mp4';
-    video.appendChild(videosrc);
-    container2.appendChild(video);
+    container2 = imagecatch(container2);
+
     
     let caption = document.createElement('figcaption');
     caption.id = 'caption_thundershock';
+    caption.className = 'caption_thundershock';
     caption.innerHTML = "Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd";
     container2.appendChild(caption);
     let paragraph3 = document.createElement('p');
     paragraph3.id ="p3_thundershock";
+    paragraph3.className ="p3_thundershock";
     paragraph3.innerHTML = "You Defeated Your Rival!";
     container.appendChild(paragraph3);
 
     let details = document.createElement('details');
     details.id = 'details_thundershock';
+    details.className = 'details_thundershock';
     let summary = document.createElement('summary');
     summary.id = 'summary_thundershock';
+    summary.className = 'summary_thundershock';
     summary.innerHTML = 'Battle Moves (dropdown)';
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
     listindex.id = 'list1';
+    listindex.className = 'list1';
     list.appendChild(listindex);
     let link1 = document.createElement('a');
     link1.id = 'link1';
+    link1.className = 'link1';
     link1.innerHTML ="Finish Story";
     link1.href='../end/end.html';
     listindex.appendChild(link1);
@@ -71,6 +71,7 @@ function thundershock4(){
     
     let container3 = document.createElement('div');
     container3.id = 'footer';
+    container3.className = 'footer';
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
@@ -87,3 +88,4 @@ function thundershock4(){
     document.getElementById('thundershock4').appendChild(container);
 
 }
+thundershock4();

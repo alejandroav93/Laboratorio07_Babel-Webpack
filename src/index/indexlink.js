@@ -1,5 +1,5 @@
 import './index.css'
-
+import {imagecatch} from './index.js'
 function index(){
 
         let container = document.createElement('div');
@@ -9,17 +9,20 @@ function index(){
         
         let titleindex = document.createElement('h1');
         titleindex.id="title_index";
+        titleindex.className="title_index";
         titleindex.innerHTML = 'Lab 07: Pokémon';
         container.appendChild(titleindex);
         titleindex.style.color='black';
 
         let paragraph = document.createElement('p');
         paragraph.id ="p_index";
+        paragraph.className ="p_index";
         paragraph.innerHTML = "This is the index for my first HTML story-telling the encounter with a wild Pikachu and the first Rival Battle with some decision making dynamics....";
         container.appendChild(paragraph);
 
         let paragraph2 = document.createElement('p');
         paragraph2.id='p2_index';
+        paragraph2.className='p2_index';
         paragraph2.innerHTML = "Should we start?";
         container.appendChild(paragraph2);
 
@@ -27,29 +30,24 @@ function index(){
         let listindex = document.createElement('li');
         container.appendChild(list)
         listindex.id = 'list_index';
+        listindex.className = 'list_index';
         list.appendChild(listindex);
         let link = document.createElement('a');
         link.id = 'link';
+        link.className = 'link';
         link.innerHTML ='Start Story';
         link.href='../encounter/encounter.html'
         listindex.appendChild(link);
 
         let container2 = document.createElement('div');
         container2.id = 'list';
+        container2.className = 'list';
         container.appendChild(container2);
-        let label = document.createElement('label');
-        label.id = 'label_progress';
-        label.innerHTML= 'Story progress';
-        container2.appendChild(label);
-        let progress = document.createElement('progress');
-        let br = document.createElement('br');
-        container2.appendChild(br);
-        progress.id = 'file';
-        progress.max='100';
-        progress.value = '0';
-        container2.appendChild(progress);
+
+        container2 = imagecatch(container2);
+
 
         document.getElementById('index').appendChild(container);
 }
-
+index();
 

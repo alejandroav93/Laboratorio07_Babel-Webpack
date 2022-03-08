@@ -1,19 +1,23 @@
 import "./catch.css"
 
+import {imagecatch} from './catch.js'
+
 function catchs(){
     let container = document.createElement('div');
     container.style.width = '100%';
     container.style.height = '100%';
     container.id = 'container';
-    container.className = 'container'
+    container.className = 'container';
     
     let titleindex = document.createElement('h1');
     titleindex.id="header_catch";
     titleindex.innerHTML = "Catching your first Pokémon!";
     container.appendChild(titleindex);
+    titleindex.className = 'header_catch';
 
     let paragraph = document.createElement('p');
     paragraph.id ="p_catch1";
+    paragraph.className="p_catch1";
     paragraph.innerHTML = "After throwing a Pokéball, you managed to catch Pikachu with ease as it was meant to happen. You realized that your rival was getting a Pokémon from Prof. Oak.";
     container.appendChild(paragraph);
     let br = document.createElement('br');
@@ -22,6 +26,7 @@ function catchs(){
 
     let paragraph2 = document.createElement('p');
     paragraph2.id ="p_catch2";
+    paragraph.className="p_catch2";
     paragraph2.innerHTML = "It's time to have your first Pokémon Battle!";
     container.appendChild(paragraph2);
 
@@ -29,22 +34,8 @@ function catchs(){
     container2.id="encounter_img";
     container.appendChild(container2);
     
-    let figure = document.createElement('figure');
-    figure.id = 'figure';
-    container2.appendChild(figure);
-    let image = document.createElement('img');
-    image.id = 'image';
-    image.alt = "Wild Pikachu in a Pokéball";
-    image.src = '../source/Shot_2.jpg';
-    image.width = 540;
-    image.height = 320;
-    container2.appendChild(image);
-    let caption = document.createElement('figcaption');
-    caption.id = 'caption';
-    caption.innerHTML = "Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd";
-    container2.appendChild(caption);
-
-
+    
+    container2 = imagecatch(container2);
 
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
@@ -53,6 +44,7 @@ function catchs(){
     list.appendChild(listindex);
     let link = document.createElement('a');
     link.id = 'link_catch';
+    link.className = 'link_catch';
     link.innerHTML = "Let's Battle Your Eternal Rival";
     link.href='../rival/rival.html';
     listindex.appendChild(link);
@@ -60,6 +52,7 @@ function catchs(){
     
     let container3 = document.createElement('div');
     container3.id = 'catch_file';
+    container3.className = 'catch_file';
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
@@ -75,6 +68,7 @@ function catchs(){
 
     document.getElementById('catch').appendChild(container);
 }
+catchs();
 
 
 
