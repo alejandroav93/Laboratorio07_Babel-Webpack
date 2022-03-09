@@ -27,9 +27,11 @@ function end(){
 
     let container2 = document.createElement('div');
     container2.id="encounter_img";
-    container.appendChild(container2);
+    
     
     container2 = imagecatch(container2);
+
+    container.appendChild(container2);
 
     let paragraph2 = document.createElement('p');
     paragraph2.id ="p2_thundershock";
@@ -70,7 +72,6 @@ function end(){
     container3.appendChild(progress);
 
     document.getElementById('end').appendChild(container);
-
 
 }
 end();

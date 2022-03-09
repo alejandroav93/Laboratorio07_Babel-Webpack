@@ -20,6 +20,7 @@ module.exports = {
     thundershock2: "./src/thundershock2/thundershocklink2.js",
     thundershock3: "./src/thundershock3/thundershocklink3.js",
     thundershock4: "./src/thundershock4/thundershocklink4.js",
+    end: "./src/end/endlink.js",
     },
     output: {
         filename: "[name].bundle.js",
@@ -108,7 +109,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: "./src/rival/rival.html",
-            filename: "rival.html",
+            filename: "./rival/rival.html",
             chunks: ["rival"]
         }),
     ],
@@ -119,13 +120,14 @@ module.exports = {
                 use: ["style-loader", "css-loader"],
                 
             },
-            {                test: /\.(png|jpe?g|gif)$/i,
-            use: [
-              {
-                loader: 'file-loader',
+            {
+                test: /\.(mp4|png|jpe?g|gif)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                  },
+                ],
               },
-            ],},
-
         ],
     },
 };

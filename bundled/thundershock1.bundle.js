@@ -16,7 +16,7 @@
   \**********************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../source/background_scroll.jpg */ \"./src/source/background_scroll.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"  #thundershock1 {\\n    display:inherit;\\n    height: 100vh;\\n    font-family: \\\"Open Sans\\\", sans-serif;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  }\\n \\n  .p1_thundershock{\\n    font-size: 22px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n  .p2_thundershock{\\n    font-size: 22px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n\\n  .h1_thundershock{\\n    text-align: center;\\n    color: brown;\\n    font-size: 48px;\\n  }\\n\\n  .label_file{\\n    font-weight:lighter;\\n    text-align: center;\\n  }\\n  .summary_thundershock{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .list1{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .list2{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .list3{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n\\n  .footer{\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .figure_thundershock{\\n      text-align: center;\\n  }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/thundershock1/thundershock.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"  #thundershock1 {\\n    display:inherit;\\n    height: 100vh;\\n    font-family: \\\"Open Sans\\\", sans-serif;\\n  }\\n \\n  .p1_thundershock{\\n    font-size: 22px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n  .p2_thundershock{\\n    font-size: 22px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n\\n  .h1_thundershock{\\n    text-align: center;\\n    color: brown;\\n    font-size: 48px;\\n  }\\n\\n  .label_file{\\n    font-weight:lighter;\\n    text-align: center;\\n  }\\n  .summary_thundershock{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .list1{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .list2{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .list3{\\n    font-size: 22px;\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n\\n  .footer{\\n    font-weight: bold;\\n    text-align: center;\\n  }\\n  .figure_thundershock{\\n      text-align: center;\\n  }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/thundershock1/thundershock.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -30,16 +30,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/css-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -47,6 +37,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/source/Shock_1.mp4":
+/*!********************************!*\
+  !*** ./src/source/Shock_1.mp4 ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"be07fabb5ced25fe10f539f6f9d467ec.mp4\");\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/Shock_1.mp4?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure';\n    figure.className = 'figure';\n    container2.appendChild(figure);\n    let video = document.createElement('video');\n    video.id = 'video';\n    video.width = 540;\n    video.height = 320;\n    video.controls;\n    let videosrc = document.createElement('source');\n    videosrc.src = '../source/Shock_1.mp4';\n    videosrc.type = 'video/mp4';\n    video.appendChild(videosrc);\n    container2.appendChild(video);\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/thundershock1/thundershock.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\n/* harmony import */ var _source_Shock_1_mp4__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../source/Shock_1.mp4 */ \"./src/source/Shock_1.mp4\");\n\n\n\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure';\n    figure.className = 'figure';\n    container2.appendChild(figure);\n    let video = document.createElement('video');\n    video.id = 'video';\n    video.width = 540;\n    video.height = 320;\n    video.autoplay = true;\n    video.controls = true;\n    let videosrc = document.createElement('source');\n    videosrc.src = _source_Shock_1_mp4__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n    videosrc.type = 'video/mp4';\n    video.appendChild(videosrc);\n    container2.appendChild(video);\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/thundershock1/thundershock.js?");
 
 /***/ }),
 
@@ -136,17 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _thundershock_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./thundershock.css */ \"./src/thundershock1/thundershock.css\");\n/* harmony import */ var _thundershock_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./thundershock.js */ \"./src/thundershock1/thundershock.js\");\n\n\n\nfunction thundershock1(){\n    \n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container'\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"h1_thundershock\";\n    titleindex.className=\"h1_thundershock\";\n    titleindex.innerHTML = \"Your Used Thundershock!\";\n    container.appendChild(titleindex);\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p1_thundershock\";\n    paragraph.className =\"p1_thundershock\";\n    paragraph.innerHTML = \"Your Pikachu Used Thundershock! It was a critial hit!! Eevee is now Paralized!\";\n    container.appendChild(paragraph);\n    let br = document.createElement('br');\n    container.appendChild(br);\n    container.appendChild(br);\n\n    let paragraph2 = document.createElement('p');\n    paragraph2.id =\"p2_thundershock\";\n    paragraph2.className =\"p2_thundershock\";\n    paragraph2.innerHTML = \"What will you do?\";\n    container.appendChild(paragraph2);\n\n    let container2 = document.createElement('div');\n    container2.id=\"figure_thundershock\";\n    container2.className=\"figure_thundershock\";\n    container.appendChild(container2);\n    \n    container2 = (0,_thundershock_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    \n    let caption = document.createElement('figcaption');\n    caption.id = 'caption_thundershock';\n    caption.className = 'caption_thundershock';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n\n    let details = document.createElement('details');\n    details.id = 'details_thundershock';\n    details.className = 'details_thundershock';\n    let summary = document.createElement('summary');\n    summary.id = 'summary_thundershock';\n    summary.className = 'summary_thundershock';\n    summary.innerHTML = 'Battle Moves (dropdown)';\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    listindex.id = 'list1';\n    listindex.className = 'list1';\n    list.appendChild(listindex);\n    let listindex2 = document.createElement('li');\n    listindex2.id = 'list2';\n    listindex2.className = 'list2';\n    list.appendChild(listindex2);\n    let listindex3 = document.createElement('li');\n    listindex3.id = 'list3';\n    listindex3.className = 'list3';\n    list.appendChild(listindex3);\n    let link1 = document.createElement('a');\n    link1.id = 'link1';\n    link1.className = 'link1';\n    link1.innerHTML =\"Thundershock\";\n    link1.href='../thundershock2/thundershock2.html';\n    listindex.appendChild(link1);\n    let link2 = document.createElement('a');\n    link2.id = 'link2';\n    link2.className = 'link2';\n    link2.innerHTML = \"Tail Whip\";\n    link2.href='../tailwhip2/tailwhip2.html';\n    listindex.appendChild(link2);\n    let link3 = document.createElement('a');\n    link3.id = 'link3';\n    link3.className = 'link3';\n    link3.innerHTML = \"Growl\";\n    link3.href='../growl2/growl2.html';\n    listindex.appendChild(link3);\n    container.appendChild(details);\n    container.appendChild(br);\n    \n    let container3 = document.createElement('div');\n    container3.id = 'footer';\n    container3.className = 'footer';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    \n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.className = 'file';\n    progress.max='100';\n    progress.value = '50';\n    container3.appendChild(progress);\n\n    document.getElementById('thundershock1').appendChild(container);\n\n}\nthundershock1();\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/thundershock1/thundershocklink.js?");
-
-/***/ }),
-
-/***/ "./src/source/background_scroll.jpg":
-/*!******************************************!*\
-  !*** ./src/source/background_scroll.jpg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/background_scroll.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _thundershock_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./thundershock.css */ \"./src/thundershock1/thundershock.css\");\n/* harmony import */ var _thundershock_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./thundershock.js */ \"./src/thundershock1/thundershock.js\");\n\n\n\nfunction thundershock1(){\n    \n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container'\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"h1_thundershock\";\n    titleindex.className=\"h1_thundershock\";\n    titleindex.innerHTML = \"Your Used Thundershock!\";\n    container.appendChild(titleindex);\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p1_thundershock\";\n    paragraph.className =\"p1_thundershock\";\n    paragraph.innerHTML = \"Your Pikachu Used Thundershock! It was a critial hit!! Eevee is now Paralized!\";\n    container.appendChild(paragraph);\n    let br = document.createElement('br');\n    container.appendChild(br);\n    container.appendChild(br);\n\n    let paragraph2 = document.createElement('p');\n    paragraph2.id =\"p2_thundershock\";\n    paragraph2.className =\"p2_thundershock\";\n    paragraph2.innerHTML = \"What will you do?\";\n    container.appendChild(paragraph2);\n\n    let container2 = document.createElement('div');\n    container2.id=\"figure_thundershock\";\n    container2.className=\"figure_thundershock\";\n    container.appendChild(container2);\n    \n    container2 = (0,_thundershock_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    \n    let caption = document.createElement('figcaption');\n    caption.id = 'caption_thundershock';\n    caption.className = 'caption_thundershock';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n\n    let details = document.createElement('details');\n    details.id = 'details_thundershock';\n    details.className = 'details_thundershock';\n    details.innerHTML = 'Battle Moves (dropdown)';\n    let summary = document.createElement('summary');\n    summary.id = 'summary_thundershock';\n    summary.className = 'summary_thundershock';\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    listindex.id = 'list1';\n    listindex.className = 'list1';\n    list.appendChild(listindex);\n    let listindex2 = document.createElement('li');\n    listindex2.id = 'list2';\n    listindex2.className = 'list2';\n    list.appendChild(listindex2);\n    let listindex3 = document.createElement('li');\n    listindex3.id = 'list3';\n    listindex3.className = 'list3';\n    list.appendChild(listindex3);\n    let link1 = document.createElement('a');\n    link1.id = 'link1';\n    link1.className = 'link1';\n    link1.innerHTML =\"Thundershock\";\n    link1.href='../thundershock2/thundershock2.html';\n    listindex.appendChild(link1);\n    let link2 = document.createElement('a');\n    link2.id = 'link2';\n    link2.className = 'link2';\n    link2.innerHTML = \"Tail Whip\";\n    link2.href='../tailwhip2/tailwhip2.html';\n    listindex2.appendChild(link2);\n    let link3 = document.createElement('a');\n    link3.id = 'link3';\n    link3.className = 'link3';\n    link3.innerHTML = \"Growl\";\n    link3.href='../growl2/growl2.html';\n    listindex3.appendChild(link3);\n    container.appendChild(details);\n    container.appendChild(br);\n    \n    let container3 = document.createElement('div');\n    container3.id = 'footer';\n    container3.className = 'footer';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    \n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.className = 'file';\n    progress.max='100';\n    progress.value = '50';\n    container3.appendChild(progress);\n\n    document.getElementById('thundershock1').appendChild(container);\n\n}\nthundershock1();\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/thundershock1/thundershocklink.js?");
 
 /***/ })
 
@@ -175,9 +165,6 @@ eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -250,32 +237,6 @@ eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"thundershock1": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/

@@ -16,7 +16,7 @@
   \*******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../source/background_scroll.jpg */ \"./src/source/background_scroll.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"  #index {\\r\\n    display:inherit;\\r\\n    height: 100vh;\\r\\n    font-family: \\\"Open Sans\\\", sans-serif;\\r\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  }\\r\\n \\r\\n  .p_index{\\r\\n    font-size: 22px;\\r\\n    text-align: center;\\r\\n    font-weight: bold;\\r\\n  }\\r\\n\\r\\n  .title_index{\\r\\n    text-align: center;\\r\\n    color: brown;\\r\\n    font-size: 48px;\\r\\n  }\\r\\n\\r\\n  .p2_index{\\r\\n    font-size: 22px;\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n  .list_index{\\r\\n    font-size: 22px;\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n\\r\\n  .list{\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"  #index {\\r\\n    display:inherit;\\r\\n    height: 100vh;\\r\\n    font-family: \\\"Open Sans\\\", sans-serif;\\r\\n  }\\r\\n \\r\\n  .p_index{\\r\\n    font-size: 22px;\\r\\n    text-align: center;\\r\\n    font-weight: bold;\\r\\n  }\\r\\n\\r\\n  .title_index{\\r\\n    text-align: center;\\r\\n    color: brown;\\r\\n    font-size: 48px;\\r\\n  }\\r\\n\\r\\n  .p2_index{\\r\\n    font-size: 22px;\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n  .list_index{\\r\\n    font-size: 22px;\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n\\r\\n  .list{\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -30,16 +30,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/css-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -47,6 +37,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/source/background_scroll.jpg?7802":
+/*!******************************************!*\
+  !*** ./src/source/background_scroll.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"0edf03d7df8e22ced75bd7b6bc1faa8f.jpg\");\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/background_scroll.jpg?");
 
 /***/ }),
 
@@ -136,17 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index/index.css\");\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.js */ \"./src/index/index.js\");\n\r\n\r\nfunction index(){\r\n\r\n        let container = document.createElement('div');\r\n        container.style.width = '100%';\r\n        container.style.height = '100%';\r\n        container.id = 'container';\r\n        \r\n        let titleindex = document.createElement('h1');\r\n        titleindex.id=\"title_index\";\r\n        titleindex.className=\"title_index\";\r\n        titleindex.innerHTML = 'Lab 07: Pokémon';\r\n        container.appendChild(titleindex);\r\n        titleindex.style.color='black';\r\n\r\n        let paragraph = document.createElement('p');\r\n        paragraph.id =\"p_index\";\r\n        paragraph.className =\"p_index\";\r\n        paragraph.innerHTML = \"This is the index for my first HTML story-telling the encounter with a wild Pikachu and the first Rival Battle with some decision making dynamics....\";\r\n        container.appendChild(paragraph);\r\n\r\n        let paragraph2 = document.createElement('p');\r\n        paragraph2.id='p2_index';\r\n        paragraph2.className='p2_index';\r\n        paragraph2.innerHTML = \"Should we start?\";\r\n        container.appendChild(paragraph2);\r\n\r\n        let list = document.createElement('ul');\r\n        let listindex = document.createElement('li');\r\n        container.appendChild(list)\r\n        listindex.id = 'list_index';\r\n        listindex.className = 'list_index';\r\n        list.appendChild(listindex);\r\n        let link = document.createElement('a');\r\n        link.id = 'link';\r\n        link.className = 'link';\r\n        link.innerHTML ='Start Story';\r\n        link.href='../encounter/encounter.html'\r\n        listindex.appendChild(link);\r\n\r\n        let container2 = document.createElement('div');\r\n        container2.id = 'list';\r\n        container2.className = 'list';\r\n        container.appendChild(container2);\r\n\r\n        container2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\r\n\r\n\r\n        document.getElementById('index').appendChild(container);\r\n}\r\nindex();\r\n\r\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/indexlink.js?");
-
-/***/ }),
-
-/***/ "./src/source/background_scroll.jpg":
-/*!******************************************!*\
-  !*** ./src/source/background_scroll.jpg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/background_scroll.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index/index.css\");\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.js */ \"./src/index/index.js\");\n/* harmony import */ var _source_background_scroll_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../source/background_scroll.jpg */ \"./src/source/background_scroll.jpg?7802\");\n\r\n\r\n\r\nfunction index(){\r\n\r\n        let container = document.createElement('div');\r\n        container.style.width = '100%';\r\n        container.style.height = '100%';\r\n        container.id = 'container';\r\n        \r\n        let titleindex = document.createElement('h1');\r\n        titleindex.id=\"title_index\";\r\n        titleindex.className=\"title_index\";\r\n        titleindex.innerHTML = 'Lab 07: Pokémon';\r\n        container.appendChild(titleindex);\r\n        titleindex.style.color='black';\r\n\r\n        let paragraph = document.createElement('p');\r\n        paragraph.id =\"p_index\";\r\n        paragraph.className =\"p_index\";\r\n        paragraph.innerHTML = \"This is the index for my first HTML story-telling the encounter with a wild Pikachu and the first Rival Battle with some decision making dynamics....\";\r\n        container.appendChild(paragraph);\r\n\r\n        let paragraph2 = document.createElement('p');\r\n        paragraph2.id='p2_index';\r\n        paragraph2.className='p2_index';\r\n        paragraph2.innerHTML = \"Should we start?\";\r\n        container.appendChild(paragraph2);\r\n\r\n        let list = document.createElement('ul');\r\n        let listindex = document.createElement('li');\r\n        container.appendChild(list)\r\n        listindex.id = 'list_index';\r\n        listindex.className = 'list_index';\r\n        list.appendChild(listindex);\r\n        let link = document.createElement('a');\r\n        link.id = 'link';\r\n        link.className = 'link';\r\n        link.innerHTML ='Start Story';\r\n        link.href='../encounter/encounter.html'\r\n        listindex.appendChild(link);\r\n\r\n        let container2 = document.createElement('div');\r\n        container2.id = 'list';\r\n        container2.className = 'list';\r\n        container.appendChild(container2);\r\n\r\n        container2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\r\n\r\n\r\n        document.getElementById('index').appendChild(container);\r\n        document.getElementById('index').style.backgroundImage = '../source/background_scroll.jpg'\r\n      /*  let sheets = document.styleSheets[document.styleSheets.length-1]\r\n        let rules = sheets.rules;\r\n        sheets.insertRule(`#index { background-image: ${fondo}}`, rules);*/\r\n}\r\nindex();\r\n\r\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/indexlink.js?");
 
 /***/ })
 
@@ -175,9 +165,6 @@ eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -250,32 +237,6 @@ eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"index1": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/

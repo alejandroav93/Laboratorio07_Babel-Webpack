@@ -1,5 +1,6 @@
 import './index.css'
 import {imagecatch} from './index.js'
+import fondo from '../source/background_scroll.jpg';
 function index(){
 
         let container = document.createElement('div');
@@ -48,6 +49,10 @@ function index(){
 
 
         document.getElementById('index').appendChild(container);
+        document.getElementById('index').style.backgroundImage = '../source/background_scroll.jpg'
+      /*  let sheets = document.styleSheets[document.styleSheets.length-1]
+        let rules = sheets.rules;
+        sheets.insertRule(`#index { background-image: ${fondo}}`, rules);*/
 }
 index();
 

@@ -1,3 +1,6 @@
+import videox from '../source/Shock_1.mp4';
+
+
 export function imagecatch(container2){
         
     let figure = document.createElement('figure');
@@ -8,9 +11,10 @@ export function imagecatch(container2){
     video.id = 'video';
     video.width = 540;
     video.height = 320;
-    video.controls;
+    video.autoplay = true;
+    video.controls = true;
     let videosrc = document.createElement('source');
-    videosrc.src = '../source/Shock_1.mp4';
+    videosrc.src = videox;
     videosrc.type = 'video/mp4';
     video.appendChild(videosrc);
     container2.appendChild(video);

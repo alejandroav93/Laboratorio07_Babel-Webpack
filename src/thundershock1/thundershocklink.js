@@ -48,10 +48,10 @@ function thundershock1(){
     let details = document.createElement('details');
     details.id = 'details_thundershock';
     details.className = 'details_thundershock';
+    details.innerHTML = 'Battle Moves (dropdown)';
     let summary = document.createElement('summary');
     summary.id = 'summary_thundershock';
     summary.className = 'summary_thundershock';
-    summary.innerHTML = 'Battle Moves (dropdown)';
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
     listindex.id = 'list1';
@@ -76,13 +76,13 @@ function thundershock1(){
     link2.className = 'link2';
     link2.innerHTML = "Tail Whip";
     link2.href='../tailwhip2/tailwhip2.html';
-    listindex.appendChild(link2);
+    listindex2.appendChild(link2);
     let link3 = document.createElement('a');
     link3.id = 'link3';
     link3.className = 'link3';
     link3.innerHTML = "Growl";
     link3.href='../growl2/growl2.html';
-    listindex.appendChild(link3);
+    listindex3.appendChild(link3);
     container.appendChild(details);
     container.appendChild(br);
     

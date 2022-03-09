@@ -11,6 +11,7 @@ function catchs(){
     
     let titleindex = document.createElement('h1');
     titleindex.id="header_catch";
+    titleindex.className="header_catch";
     titleindex.innerHTML = "Catching your first Pokémon!";
     container.appendChild(titleindex);
     titleindex.className = 'header_catch';
@@ -26,12 +27,13 @@ function catchs(){
 
     let paragraph2 = document.createElement('p');
     paragraph2.id ="p_catch2";
-    paragraph.className="p_catch2";
+    paragraph2.className="p_catch2";
     paragraph2.innerHTML = "It's time to have your first Pokémon Battle!";
     container.appendChild(paragraph2);
 
     let container2 = document.createElement('div');
     container2.id="encounter_img";
+    container2.className="encounter_img";
     container.appendChild(container2);
     
     
@@ -41,6 +43,7 @@ function catchs(){
     let listindex = document.createElement('li');
     container.appendChild(list)
     listindex.id = 'link_';
+    listindex.className = 'link_';
     list.appendChild(listindex);
     let link = document.createElement('a');
     link.id = 'link_catch';
@@ -56,6 +59,7 @@ function catchs(){
     container.appendChild(container3);
     let label = document.createElement('label');
     label.id = 'label_file';
+    label.className = 'label_file';
     label.innerHTML= 'Story progress';
     container3.appendChild(label);
     let progress = document.createElement('progress');
