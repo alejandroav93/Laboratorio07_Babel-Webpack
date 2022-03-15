@@ -27,6 +27,7 @@ function end(){
 
     let container2 = document.createElement('div');
     container2.id="encounter_img";
+    container2.className="encounter_img";
     
     
     container2 = imagecatch(container2);
@@ -49,7 +50,7 @@ function end(){
     link.id = 'link_catch';
     link.className = 'link_catch';
     link.innerHTML = "Go back to beggining";
-    link.href='../index/index.html';
+    link.href='index.html';
     listindex.appendChild(link);
     container.appendChild(br);
     

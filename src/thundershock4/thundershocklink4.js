@@ -54,7 +54,7 @@ function thundershock4(){
     let summary = document.createElement('summary');
     summary.id = 'summary_thundershock';
     summary.className = 'summary_thundershock';
-    summary.innerHTML = 'Battle Moves (dropdown)';
+    summary.innerHTML = 'Go to End';
     let list = document.createElement('ul');
     let listindex = document.createElement('li');
     listindex.id = 'list1';

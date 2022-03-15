@@ -10,11 +10,13 @@ function tailwhip2(){
     
     let titleindex = document.createElement('h1');
     titleindex.id="h1_growl";
+    titleindex.className="h1_growl";
     titleindex.innerHTML = "You Used Tail Whip!";
     container.appendChild(titleindex);
 
     let paragraph = document.createElement('p');
     paragraph.id ="p1_growl";
+    paragraph.className ="p1_growl";
     paragraph.innerHTML = "Your Pikachu Used Tail Whip! Eevee Defense stat was lowered!";
     let br = document.createElement('br');
     container.appendChild(paragraph);
@@ -23,11 +25,13 @@ function tailwhip2(){
 
     let paragraph2 = document.createElement('p');
     paragraph2.id ="p2_growl";
+    paragraph2.className ="p2_growl";
     paragraph2.innerHTML = "What will you do?";
     container.appendChild(paragraph2);
 
     let container2 = document.createElement('div');
     container2.id="figure_growl";
+    container2.className="figure_growl";
     container.appendChild(container2);
     
     container2 = imagecatch(container2);
@@ -35,12 +39,14 @@ function tailwhip2(){
     
     let caption = document.createElement('figcaption');
     caption.id = 'caption_growl';
+    caption.className = 'caption_growl';
     caption.innerHTML = "Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd";
     container2.appendChild(caption);
 
 
     let details = document.createElement('details');
     details.id = 'details_growl';
+    details.class = 'details_growl';
     details.className = 'details_growl';
     let summary = document.createElement('summary');
     summary.id = 'summary_growl';
