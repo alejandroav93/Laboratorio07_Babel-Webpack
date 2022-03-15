@@ -1,6 +1,6 @@
 import './index.css'
 import {imagecatch} from './index.js'
-import fondo from '../source/background_scroll.jpg';
+
 function index(){
 
         let container = document.createElement('div');
@@ -13,7 +13,7 @@ function index(){
         titleindex.className="title_index";
         titleindex.innerHTML = 'Lab 07: Pokémon';
         container.appendChild(titleindex);
-        titleindex.style.color='black';
+    
 
         let paragraph = document.createElement('p');
         paragraph.id ="p_index";
@@ -29,16 +29,18 @@ function index(){
 
         let list = document.createElement('ul');
         let listindex = document.createElement('li');
-        container.appendChild(list)
         listindex.id = 'list_index';
         listindex.className = 'list_index';
-        list.appendChild(listindex);
+
         let link = document.createElement('a');
         link.id = 'link';
         link.className = 'link';
         link.innerHTML ='Start Story';
-        link.href='../encounter/encounter.html'
+        link.href='encounter.html'
         listindex.appendChild(link);
+        list.appendChild(listindex);
+        container.appendChild(list)
+        
 
         let container2 = document.createElement('div');
         container2.id = 'list';

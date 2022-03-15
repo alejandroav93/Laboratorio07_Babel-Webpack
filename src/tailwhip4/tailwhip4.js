@@ -8,7 +8,7 @@ export function imagecatch(container2){
     video.id = 'video';
     video.width = 540;
     video.height = 320;
-    video.controls;
+    video.controls = true;
     let videosrc = document.createElement('source');
     videosrc.src = '../source/Tail_Whip_.mp4';
     videosrc.type = 'video/mp4';

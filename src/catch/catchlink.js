@@ -49,7 +49,7 @@ function catchs(){
     link.id = 'link_catch';
     link.className = 'link_catch';
     link.innerHTML = "Let's Battle Your Eternal Rival";
-    link.href='../rival/rival.html';
+    link.href='rival.html';
     listindex.appendChild(link);
     container.appendChild(br);
     

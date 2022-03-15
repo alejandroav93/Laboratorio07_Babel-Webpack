@@ -7,7 +7,7 @@ export function imagecatch(container2){
     let image = document.createElement('img');
     image.id = 'image';
     image.alt = 'Wild Pikachu';
-    image.src = '../souce.SHot_1.jpg';
+    image.src = '../source/Shot_1.jpg';
     image.width = 540;
     image.height = 320;
     container2.appendChild(image);

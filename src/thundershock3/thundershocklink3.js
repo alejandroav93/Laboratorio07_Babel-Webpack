@@ -69,20 +69,22 @@ function thundershock3(){
     link1.id = 'link1';
     link1.className = 'link1';
     link1.innerHTML ="Thundershock";
-    link1.href='../thundershock4/thundershock4.html';
+    link1.href='thundershock4.html';
     listindex.appendChild(link1);
     let link2 = document.createElement('a');
     link2.id = 'link2';
     link2.className = 'link2';
     link2.innerHTML = "Tail Whip";
-    link2.href='../tailwhip4/tailwhip4.html';
-    listindex.appendChild(link2);
+    link2.href='tailwhip4.html';
+    listindex2.appendChild(link2);
     let link3 = document.createElement('a');
     link3.id = 'link3';
     link3.className = 'link3';
     link3.innerHTML = "Growl";
-    link3.href='../growl4/growl4.html';
-    listindex.appendChild(link3);
+    link3.href='growl4.html';
+    listindex3.appendChild(link3);
+    summary.appendChild(list);
+    details.appendChild(summary);
     container.appendChild(details);
     container.appendChild(br);
     

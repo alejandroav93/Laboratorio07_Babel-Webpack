@@ -23,6 +23,7 @@ function encounter(){
 
     let container2 = document.createElement('div');
     container2.id="encounter_img";
+    container2.className="encounter_img";
     container.appendChild(container2);
 
     container2 = imagecatch(container2);
@@ -37,7 +38,7 @@ function encounter(){
     link.id = 'link';
     link.className = 'link';
     link.innerHTML ="Throw Pokéball";
-    link.href='../catch/catch.html';
+    link.href='catch.html';
     listindex.appendChild(link);
 
     let container3 = document.createElement('div');

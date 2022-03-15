@@ -19,6 +19,7 @@ function tailwhip3(){
     paragraph.className ="p1_growl";
     paragraph.innerHTML = "Your Pikachu Used Tail Whip! Eevee Defense stat was lowered!";
     let br = document.createElement('br');
+    container.appendChild(paragraph);
     container.appendChild(br);
     container.appendChild(br);
 
@@ -67,20 +68,22 @@ function tailwhip3(){
     link1.id = 'link1';
     link1.className = 'link1';
     link1.innerHTML ="Thundershock";
-    link1.href='../thundershock3/thundershock3.html';
-    listindex.appendChild(link1);
+    link1.href='thundershock3.html';
+    listindex2.appendChild(link1);
     let link2 = document.createElement('a');
     link2.id = 'link2';
     link2.className = 'link2';
     link2.innerHTML = "Tail Whip";
-    link2.href='../tailwhip3/tailwhip3.html';
-    listindex.appendChild(link2);
+    link2.href='tailwhip3.html';
+    listindex3.appendChild(link2);
     let link3 = document.createElement('a');
     link3.id = 'link3';
     link3.className = 'link3';
     link3.innerHTML = "Growl";
-    link3.href='../growl3/growl3.html';
+    link3.href='growl3.html';
     listindex.appendChild(link3);
+    summary.appendChild(list);
+    details.appendChild(summary);
     container.appendChild(details);
     container.appendChild(br);
     

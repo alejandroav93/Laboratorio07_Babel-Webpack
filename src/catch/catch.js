@@ -1,4 +1,5 @@
 
+import imagen from '../source/Shot_2.jpg';
 export function imagecatch(container2){
         
     let figure = document.createElement('figure');
@@ -8,7 +9,7 @@ export function imagecatch(container2){
     let image = document.createElement('img');
     image.id = 'image';
     image.alt = "Wild Pikachu in a Pokéball";
-    image.src = '../source/Shot_2.jpg';
+    image.src = imagen;
     image.width = 540;
     image.height = 320;
     container2.appendChild(image);

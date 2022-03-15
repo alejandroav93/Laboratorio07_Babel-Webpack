@@ -1,5 +1,6 @@
 import "./rival.css"
 import {imagecatch} from './rival.js'
+
 function change(){
     
     let container = document.createElement('div');
@@ -61,21 +62,23 @@ function change(){
     let link1 = document.createElement('a');
     link1.id = 'link1';
     link1.className = 'link1';
-    link1.innerHTML =="Thundershock";
-    link1.href='../thundershock1/thundershock.html';
+    link1.innerHTML ="Thundershock";
+    link1.href='thundershock1.html';
     listindex.appendChild(link1);
     let link2 = document.createElement('a');
     link2.id = 'link2';
     link2.className = 'link2';
     link2.innerHTML = "Tail Whip";
-    link2.href='../tailwhip1/tailwhip.html';
-    listindex.appendChild(link2);
+    link2.href='tailwhip.html';
+    listindex2.appendChild(link2);
     let link3 = document.createElement('a');
     link3.id = 'link3';
     link3.className = 'link3';
     link3.innerHTML = "Growl";
-    link3.href='../growl1/growl.html';
-    listindex.appendChild(link3);
+    link3.href='growl.html';
+    listindex3.appendChild(link3);
+    summary.appendChild(list);
+    details.appendChild(summary);
     container.appendChild(details);
     container.appendChild(br);
     

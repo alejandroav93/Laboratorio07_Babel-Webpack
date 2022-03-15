@@ -1,4 +1,5 @@
 const path = require("path");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -85,7 +86,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/tailwhip1/tailwhip.html",
             filename: "tailwhip.html",
-            chunks: ["tailwhip"]
+            chunks: ["tailwhip1"]
         }),
         new HtmlWebpackPlugin({
             template: "./src/tailwhip2/tailwhip2.html",
@@ -109,9 +110,10 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: "./src/rival/rival.html",
-            filename: "./rival/rival.html",
+            filename: "rival.html",
             chunks: ["rival"]
         }),
+        new CleanWebpackPlugin(),
     ],
     module: {
         rules: [

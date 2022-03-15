@@ -16,7 +16,7 @@
   \*******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../source/background_scroll.jpg */ \"./src/source/background_scroll.jpg?9366\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"  #catch {\\r\\n    display:inherit;\\r\\n    height: 100vh;\\r\\n    font-family: \\\"Open Sans\\\", sans-serif;\\r\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n  }\\r\\n \\r\\n  .p_catch1{\\r\\n    font-size: 22px;\\r\\n    text-align: center;\\r\\n    font-weight: bold;\\r\\n  }\\r\\n  .p_catch2{\\r\\n    font-size: 22px;\\r\\n    text-align: center;\\r\\n    font-weight: bold;\\r\\n  }\\r\\n\\r\\n  .header_catch{\\r\\n    text-align: center;\\r\\n    color: brown;\\r\\n    font-size: 48px;\\r\\n  }\\r\\n\\r\\n  .label_file{\\r\\n    font-weight:lighter;\\r\\n    text-align: center;\\r\\n  }\\r\\n  .link_{\\r\\n    font-size: 22px;\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n\\r\\n  .catch_file{\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n  .figure{\\r\\n      text-align: center;\\r\\n  }\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catch.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"  #catch {\\r\\n    display:inherit;\\r\\n    height: 100vh;\\r\\n    font-family: \\\"Open Sans\\\", sans-serif;\\r\\n    background-color: #f39f86;\\r\\n    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);\\r\\n    font-family: \\\"Open Sans\\\", sans-serif;\\r\\n\\r\\n  }\\r\\n \\r\\n  .p_catch1{\\r\\n    font-size: 22px;\\r\\n    text-align: center;\\r\\n    font-weight: bold;\\r\\n  }\\r\\n  .p_catch2{\\r\\n    font-size: 22px;\\r\\n    text-align: center;\\r\\n    font-weight: bold;\\r\\n  }\\r\\n\\r\\n  .header_catch{\\r\\n    text-align: center;\\r\\n    color: brown;\\r\\n    font-size: 48px;\\r\\n  }\\r\\n\\r\\n  .label_file{\\r\\n    font-weight:lighter;\\r\\n    text-align: center;\\r\\n  }\\r\\n  .link_{\\r\\n    font-size: 22px;\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n\\r\\n  .catch_file{\\r\\n    font-weight: bold;\\r\\n    text-align: center;\\r\\n  }\\r\\n  .encounter_img{\\r\\n      text-align: center;\\r\\n  }\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catch.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -30,16 +30,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/css-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -47,6 +37,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/source/Shot_2.jpg":
+/*!*******************************!*\
+  !*** ./src/source/Shot_2.jpg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"aed5d1b52eabced5377e9d132087a445.jpg\");\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/Shot_2.jpg?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\n\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure';\n    figure.className = 'figure';\n    container2.appendChild(figure);\n    let image = document.createElement('img');\n    image.id = 'image';\n    image.alt = \"Wild Pikachu in a Pokéball\";\n    image.src = '../source/Shot_2.jpg';\n    image.width = 540;\n    image.height = 320;\n    container2.appendChild(image);\n    let caption = document.createElement('figcaption');\n    caption.id = 'caption';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catch.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\n/* harmony import */ var _source_Shot_2_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../source/Shot_2.jpg */ \"./src/source/Shot_2.jpg\");\n\n\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure';\n    figure.className = 'figure';\n    container2.appendChild(figure);\n    let image = document.createElement('img');\n    image.id = 'image';\n    image.alt = \"Wild Pikachu in a Pokéball\";\n    image.src = _source_Shot_2_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n    image.width = 540;\n    image.height = 320;\n    container2.appendChild(image);\n    let caption = document.createElement('figcaption');\n    caption.id = 'caption';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catch.js?");
 
 /***/ }),
 
@@ -136,17 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _catch_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./catch.css */ \"./src/catch/catch.css\");\n/* harmony import */ var _catch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./catch.js */ \"./src/catch/catch.js\");\n\n\n\n\nfunction catchs(){\n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container';\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"header_catch\";\n    titleindex.className=\"header_catch\";\n    titleindex.innerHTML = \"Catching your first Pokémon!\";\n    container.appendChild(titleindex);\n    titleindex.className = 'header_catch';\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p_catch1\";\n    paragraph.className=\"p_catch1\";\n    paragraph.innerHTML = \"After throwing a Pokéball, you managed to catch Pikachu with ease as it was meant to happen. You realized that your rival was getting a Pokémon from Prof. Oak.\";\n    container.appendChild(paragraph);\n    let br = document.createElement('br');\n    container.appendChild(br);\n    container.appendChild(br);\n\n    let paragraph2 = document.createElement('p');\n    paragraph2.id =\"p_catch2\";\n    paragraph2.className=\"p_catch2\";\n    paragraph2.innerHTML = \"It's time to have your first Pokémon Battle!\";\n    container.appendChild(paragraph2);\n\n    let container2 = document.createElement('div');\n    container2.id=\"encounter_img\";\n    container2.className=\"encounter_img\";\n    container.appendChild(container2);\n    \n    \n    container2 = (0,_catch_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    container.appendChild(list)\n    listindex.id = 'link_';\n    listindex.className = 'link_';\n    list.appendChild(listindex);\n    let link = document.createElement('a');\n    link.id = 'link_catch';\n    link.className = 'link_catch';\n    link.innerHTML = \"Let's Battle Your Eternal Rival\";\n    link.href='../rival/rival.html';\n    listindex.appendChild(link);\n    container.appendChild(br);\n    \n    let container3 = document.createElement('div');\n    container3.id = 'catch_file';\n    container3.className = 'catch_file';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    \n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.max='100';\n    progress.value = '25.00';\n    container3.appendChild(progress);\n\n    document.getElementById('catch').appendChild(container);\n}\ncatchs();\n\n\n\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catchlink.js?");
-
-/***/ }),
-
-/***/ "./src/source/background_scroll.jpg?9366":
-/*!******************************************!*\
-  !*** ./src/source/background_scroll.jpg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/source/background_scroll.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _catch_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./catch.css */ \"./src/catch/catch.css\");\n/* harmony import */ var _catch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./catch.js */ \"./src/catch/catch.js\");\n\n\n\n\nfunction catchs(){\n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container';\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"header_catch\";\n    titleindex.className=\"header_catch\";\n    titleindex.innerHTML = \"Catching your first Pokémon!\";\n    container.appendChild(titleindex);\n    titleindex.className = 'header_catch';\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p_catch1\";\n    paragraph.className=\"p_catch1\";\n    paragraph.innerHTML = \"After throwing a Pokéball, you managed to catch Pikachu with ease as it was meant to happen. You realized that your rival was getting a Pokémon from Prof. Oak.\";\n    container.appendChild(paragraph);\n    let br = document.createElement('br');\n    container.appendChild(br);\n    container.appendChild(br);\n\n    let paragraph2 = document.createElement('p');\n    paragraph2.id =\"p_catch2\";\n    paragraph2.className=\"p_catch2\";\n    paragraph2.innerHTML = \"It's time to have your first Pokémon Battle!\";\n    container.appendChild(paragraph2);\n\n    let container2 = document.createElement('div');\n    container2.id=\"encounter_img\";\n    container2.className=\"encounter_img\";\n    container.appendChild(container2);\n    \n    \n    container2 = (0,_catch_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    container.appendChild(list)\n    listindex.id = 'link_';\n    listindex.className = 'link_';\n    list.appendChild(listindex);\n    let link = document.createElement('a');\n    link.id = 'link_catch';\n    link.className = 'link_catch';\n    link.innerHTML = \"Let's Battle Your Eternal Rival\";\n    link.href='rival.html';\n    listindex.appendChild(link);\n    container.appendChild(br);\n    \n    let container3 = document.createElement('div');\n    container3.id = 'catch_file';\n    container3.className = 'catch_file';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    \n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.max='100';\n    progress.value = '25.00';\n    container3.appendChild(progress);\n\n    document.getElementById('catch').appendChild(container);\n}\ncatchs();\n\n\n\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catchlink.js?");
 
 /***/ })
 
@@ -175,9 +165,6 @@ eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -250,32 +237,6 @@ eval("module.exports = __webpack_require__.p + \"cd928e274b620f3c090d.jpg\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"catch": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/

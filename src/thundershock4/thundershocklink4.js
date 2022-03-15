@@ -64,8 +64,10 @@ function thundershock4(){
     link1.id = 'link1';
     link1.className = 'link1';
     link1.innerHTML ="Finish Story";
-    link1.href='../end/end.html';
+    link1.href='end.html';
     listindex.appendChild(link1);
+    summary.appendChild(list);
+    details.appendChild(summary);
     container.appendChild(details);
     container.appendChild(br);
     
