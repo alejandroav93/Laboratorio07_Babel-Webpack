@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/catch/catch.js":
+/*!****************************!*\
+  !*** ./src/catch/catch.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\n/* harmony import */ var _source_Shot_2_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../source/Shot_2.jpg */ \"./src/source/Shot_2.jpg\");\n\nfunction imagecatch(container2) {\n  var figure = document.createElement('figure');\n  figure.id = 'figure';\n  figure.className = 'figure';\n  container2.appendChild(figure);\n  var image = document.createElement('img');\n  image.id = 'image';\n  image.alt = \"Wild Pikachu in a Pokéball\";\n  image.src = _source_Shot_2_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n  image.width = 540;\n  image.height = 320;\n  container2.appendChild(image);\n  var caption = document.createElement('figcaption');\n  caption.id = 'caption';\n  caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n  container2.appendChild(caption);\n  return container2;\n}\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catch.js?");
+
+/***/ }),
+
+/***/ "./src/catch/catchlink.js":
+/*!********************************!*\
+  !*** ./src/catch/catchlink.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _catch_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./catch.css */ \"./src/catch/catch.css\");\n/* harmony import */ var _catch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./catch.js */ \"./src/catch/catch.js\");\n\n\n\nfunction catchs() {\n  var container = document.createElement('div');\n  container.style.width = '100%';\n  container.style.height = '100%';\n  container.id = 'container';\n  container.className = 'container';\n  var titleindex = document.createElement('h1');\n  titleindex.id = \"header_catch\";\n  titleindex.className = \"header_catch\";\n  titleindex.innerHTML = \"Catching your first Pokémon!\";\n  container.appendChild(titleindex);\n  titleindex.className = 'header_catch';\n  var paragraph = document.createElement('p');\n  paragraph.id = \"p_catch1\";\n  paragraph.className = \"p_catch1\";\n  paragraph.innerHTML = \"After throwing a Pokéball, you managed to catch Pikachu with ease as it was meant to happen. You realized that your rival was getting a Pokémon from Prof. Oak.\";\n  container.appendChild(paragraph);\n  var br = document.createElement('br');\n  container.appendChild(br);\n  container.appendChild(br);\n  var paragraph2 = document.createElement('p');\n  paragraph2.id = \"p_catch2\";\n  paragraph2.className = \"p_catch2\";\n  paragraph2.innerHTML = \"It's time to have your first Pokémon Battle!\";\n  container.appendChild(paragraph2);\n  var container2 = document.createElement('div');\n  container2.id = \"encounter_img\";\n  container2.className = \"encounter_img\";\n  container.appendChild(container2);\n  container2 = (0,_catch_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n  var list = document.createElement('ul');\n  var listindex = document.createElement('li');\n  container.appendChild(list);\n  listindex.id = 'link_';\n  listindex.className = 'link_';\n  list.appendChild(listindex);\n  var link = document.createElement('a');\n  link.id = 'link_catch';\n  link.className = 'link_catch';\n  link.innerHTML = \"Let's Battle Your Eternal Rival\";\n  link.href = 'rival.html';\n  listindex.appendChild(link);\n  container.appendChild(br);\n  var container3 = document.createElement('div');\n  container3.id = 'catch_file';\n  container3.className = 'catch_file';\n  container.appendChild(container3);\n  var label = document.createElement('label');\n  label.id = 'label_file';\n  label.className = 'label_file';\n  label.innerHTML = 'Story progress';\n  container3.appendChild(label);\n  var progress = document.createElement('progress');\n  container3.appendChild(br);\n  progress.id = 'file';\n  progress.max = '100';\n  progress.value = '25.00';\n  container3.appendChild(progress);\n  document.getElementById('catch').appendChild(container);\n}\n\ncatchs();\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catchlink.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/catch/catch.css":
 /*!*******************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/catch/catch.css ***!
@@ -117,26 +137,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/catch/catch.js":
-/*!****************************!*\
-  !*** ./src/catch/catch.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\n/* harmony import */ var _source_Shot_2_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../source/Shot_2.jpg */ \"./src/source/Shot_2.jpg\");\n\n\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure';\n    figure.className = 'figure';\n    container2.appendChild(figure);\n    let image = document.createElement('img');\n    image.id = 'image';\n    image.alt = \"Wild Pikachu in a Pokéball\";\n    image.src = _source_Shot_2_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n    image.width = 540;\n    image.height = 320;\n    container2.appendChild(image);\n    let caption = document.createElement('figcaption');\n    caption.id = 'caption';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catch.js?");
-
-/***/ }),
-
-/***/ "./src/catch/catchlink.js":
-/*!********************************!*\
-  !*** ./src/catch/catchlink.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _catch_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./catch.css */ \"./src/catch/catch.css\");\n/* harmony import */ var _catch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./catch.js */ \"./src/catch/catch.js\");\n\n\n\n\nfunction catchs(){\n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container';\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"header_catch\";\n    titleindex.className=\"header_catch\";\n    titleindex.innerHTML = \"Catching your first Pokémon!\";\n    container.appendChild(titleindex);\n    titleindex.className = 'header_catch';\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p_catch1\";\n    paragraph.className=\"p_catch1\";\n    paragraph.innerHTML = \"After throwing a Pokéball, you managed to catch Pikachu with ease as it was meant to happen. You realized that your rival was getting a Pokémon from Prof. Oak.\";\n    container.appendChild(paragraph);\n    let br = document.createElement('br');\n    container.appendChild(br);\n    container.appendChild(br);\n\n    let paragraph2 = document.createElement('p');\n    paragraph2.id =\"p_catch2\";\n    paragraph2.className=\"p_catch2\";\n    paragraph2.innerHTML = \"It's time to have your first Pokémon Battle!\";\n    container.appendChild(paragraph2);\n\n    let container2 = document.createElement('div');\n    container2.id=\"encounter_img\";\n    container2.className=\"encounter_img\";\n    container.appendChild(container2);\n    \n    \n    container2 = (0,_catch_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    container.appendChild(list)\n    listindex.id = 'link_';\n    listindex.className = 'link_';\n    list.appendChild(listindex);\n    let link = document.createElement('a');\n    link.id = 'link_catch';\n    link.className = 'link_catch';\n    link.innerHTML = \"Let's Battle Your Eternal Rival\";\n    link.href='rival.html';\n    listindex.appendChild(link);\n    container.appendChild(br);\n    \n    let container3 = document.createElement('div');\n    container3.id = 'catch_file';\n    container3.className = 'catch_file';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    \n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.max='100';\n    progress.value = '25.00';\n    container3.appendChild(progress);\n\n    document.getElementById('catch').appendChild(container);\n}\ncatchs();\n\n\n\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/catch/catchlink.js?");
 
 /***/ })
 

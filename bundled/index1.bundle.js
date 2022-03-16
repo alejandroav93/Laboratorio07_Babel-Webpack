@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/index/index.js":
+/*!****************************!*\
+  !*** ./src/index/index.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2) {\n  var label = document.createElement('label');\n  label.id = 'label_progress';\n  label.className = 'label_progress';\n  label.innerHTML = 'Story progress';\n  container2.appendChild(label);\n  var progress = document.createElement('progress');\n  var br = document.createElement('br');\n  container2.appendChild(br);\n  progress.id = 'file';\n  progress.max = '100';\n  progress.value = '0';\n  container2.appendChild(progress);\n  return container2;\n}\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/index.js?");
+
+/***/ }),
+
+/***/ "./src/index/indexlink.js":
+/*!********************************!*\
+  !*** ./src/index/indexlink.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index/index.css\");\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.js */ \"./src/index/index.js\");\n\n\n\nfunction index() {\n  var container = document.createElement('div');\n  container.style.width = '100%';\n  container.style.height = '100%';\n  container.id = 'container';\n  var titleindex = document.createElement('h1');\n  titleindex.id = \"title_index\";\n  titleindex.className = \"title_index\";\n  titleindex.innerHTML = 'Lab 07: Pokémon';\n  container.appendChild(titleindex);\n  var paragraph = document.createElement('p');\n  paragraph.id = \"p_index\";\n  paragraph.className = \"p_index\";\n  paragraph.innerHTML = \"This is the index for my first HTML story-telling the encounter with a wild Pikachu and the first Rival Battle with some decision making dynamics....\";\n  container.appendChild(paragraph);\n  var paragraph2 = document.createElement('p');\n  paragraph2.id = 'p2_index';\n  paragraph2.className = 'p2_index';\n  paragraph2.innerHTML = \"Should we start?\";\n  container.appendChild(paragraph2);\n  var list = document.createElement('ul');\n  var listindex = document.createElement('li');\n  listindex.id = 'list_index';\n  listindex.className = 'list_index';\n  var link = document.createElement('a');\n  link.id = 'link';\n  link.className = 'link';\n  link.innerHTML = 'Start Story';\n  link.href = 'encounter.html';\n  listindex.appendChild(link);\n  list.appendChild(listindex);\n  container.appendChild(list);\n  var container2 = document.createElement('div');\n  container2.id = 'list';\n  container2.className = 'list';\n  container.appendChild(container2);\n  container2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n  document.getElementById('index').appendChild(container);\n  document.getElementById('index').style.backgroundImage = '../source/background_scroll.jpg';\n  /*  let sheets = document.styleSheets[document.styleSheets.length-1]\r\n    let rules = sheets.rules;\r\n    sheets.insertRule(`#index { background-image: ${fondo}}`, rules);*/\n}\n\nindex();\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/indexlink.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/index/index.css":
 /*!*******************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/index/index.css ***!
@@ -107,26 +127,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/index/index.js":
-/*!****************************!*\
-  !*** ./src/index/index.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2){\r\n        \r\n        let label = document.createElement('label');\r\n        label.id = 'label_progress';\r\n        label.className = 'label_progress';\r\n        label.innerHTML= 'Story progress';\r\n        container2.appendChild(label);\r\n        let progress = document.createElement('progress');\r\n        let br = document.createElement('br');\r\n        container2.appendChild(br);\r\n        progress.id = 'file';\r\n        progress.max='100';\r\n        progress.value = '0';\r\n        container2.appendChild(progress);\r\n        \r\n    \r\n    \r\n        return container2;\r\n    }\r\n    \n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/index.js?");
-
-/***/ }),
-
-/***/ "./src/index/indexlink.js":
-/*!********************************!*\
-  !*** ./src/index/indexlink.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index/index.css\");\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.js */ \"./src/index/index.js\");\n\r\n\r\n\r\nfunction index(){\r\n\r\n        let container = document.createElement('div');\r\n        container.style.width = '100%';\r\n        container.style.height = '100%';\r\n        container.id = 'container';\r\n        \r\n        let titleindex = document.createElement('h1');\r\n        titleindex.id=\"title_index\";\r\n        titleindex.className=\"title_index\";\r\n        titleindex.innerHTML = 'Lab 07: Pokémon';\r\n        container.appendChild(titleindex);\r\n    \r\n\r\n        let paragraph = document.createElement('p');\r\n        paragraph.id =\"p_index\";\r\n        paragraph.className =\"p_index\";\r\n        paragraph.innerHTML = \"This is the index for my first HTML story-telling the encounter with a wild Pikachu and the first Rival Battle with some decision making dynamics....\";\r\n        container.appendChild(paragraph);\r\n\r\n        let paragraph2 = document.createElement('p');\r\n        paragraph2.id='p2_index';\r\n        paragraph2.className='p2_index';\r\n        paragraph2.innerHTML = \"Should we start?\";\r\n        container.appendChild(paragraph2);\r\n\r\n        let list = document.createElement('ul');\r\n        let listindex = document.createElement('li');\r\n        listindex.id = 'list_index';\r\n        listindex.className = 'list_index';\r\n\r\n        let link = document.createElement('a');\r\n        link.id = 'link';\r\n        link.className = 'link';\r\n        link.innerHTML ='Start Story';\r\n        link.href='encounter.html'\r\n        listindex.appendChild(link);\r\n        list.appendChild(listindex);\r\n        container.appendChild(list)\r\n        \r\n\r\n        let container2 = document.createElement('div');\r\n        container2.id = 'list';\r\n        container2.className = 'list';\r\n        container.appendChild(container2);\r\n\r\n        container2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\r\n\r\n\r\n        document.getElementById('index').appendChild(container);\r\n        document.getElementById('index').style.backgroundImage = '../source/background_scroll.jpg'\r\n      /*  let sheets = document.styleSheets[document.styleSheets.length-1]\r\n        let rules = sheets.rules;\r\n        sheets.insertRule(`#index { background-image: ${fondo}}`, rules);*/\r\n}\r\nindex();\r\n\r\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/index/indexlink.js?");
 
 /***/ })
 

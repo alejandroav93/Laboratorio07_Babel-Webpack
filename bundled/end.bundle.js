@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/end/end.js":
+/*!************************!*\
+  !*** ./src/end/end.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2) {\n  var figure = document.createElement('figure');\n  figure.id = 'figure';\n  figure.className = 'figure';\n  container2.appendChild(figure);\n  var image = document.createElement('img');\n  image.id = 'image';\n  image.alt = \"Wild Pikachu in a Pokéball\";\n  image.src = '../source/Shot_3.jpg';\n  image.width = 540;\n  image.height = 320;\n  container2.appendChild(image);\n  var caption = document.createElement('figcaption');\n  caption.id = 'caption_thundershock';\n  caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n  container2.appendChild(caption);\n  return container2;\n}\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/end/end.js?");
+
+/***/ }),
+
+/***/ "./src/end/endlink.js":
+/*!****************************!*\
+  !*** ./src/end/endlink.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _end_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./end.css */ \"./src/end/end.css\");\n/* harmony import */ var _end_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./end.js */ \"./src/end/end.js\");\n\n\n\nfunction end() {\n  var container = document.createElement('div');\n  container.style.width = '100%';\n  container.style.height = '100%';\n  container.id = 'container';\n  container.className = 'container';\n  var titleindex = document.createElement('h1');\n  titleindex.id = \"h1_thundershock\";\n  titleindex.className = \"h1_thundershock\";\n  titleindex.innerHTML = \"You have Defeated your Rival!\";\n  container.appendChild(titleindex);\n  var paragraph = document.createElement('p');\n  paragraph.id = \"p1_thundershock\";\n  paragraph.className = \"p1_thundershock\";\n  paragraph.innerHTML = \"After a tough battle, you have defeated your rival. You have earned some respect (and cash too!). Let's Prepare for your next battle...\";\n  container.appendChild(paragraph);\n  var br = document.createElement('br');\n  container.appendChild(br);\n  container.appendChild(br);\n  var container2 = document.createElement('div');\n  container2.id = \"encounter_img\";\n  container2.className = \"encounter_img\";\n  container2 = (0,_end_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n  container.appendChild(container2);\n  var paragraph2 = document.createElement('p');\n  paragraph2.id = \"p2_thundershock\";\n  paragraph2.className = \"p2_thundershock\";\n  paragraph2.innerHTML = \"If you want to re-start the story:\";\n  container.appendChild(paragraph2);\n  var list = document.createElement('ul');\n  var listindex = document.createElement('li');\n  container.appendChild(list);\n  listindex.id = 'link_';\n  listindex.className = 'link_';\n  list.appendChild(listindex);\n  var link = document.createElement('a');\n  link.id = 'link_catch';\n  link.className = 'link_catch';\n  link.innerHTML = \"Go back to beggining\";\n  link.href = 'index.html';\n  listindex.appendChild(link);\n  container.appendChild(br);\n  var container3 = document.createElement('div');\n  container3.id = 'catch_file';\n  container3.className = 'catch_file';\n  container.appendChild(container3);\n  var label = document.createElement('label');\n  label.id = 'label_file';\n  label.className = 'label_file';\n  label.innerHTML = 'Story progress';\n  container3.appendChild(label);\n  var progress = document.createElement('progress');\n  container3.appendChild(br);\n  progress.id = 'file';\n  progress.className = 'file';\n  progress.max = '100';\n  progress.value = '100.00';\n  container3.appendChild(progress);\n  document.getElementById('end').appendChild(container);\n}\n\nend();\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/end/endlink.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/end/end.css":
 /*!***************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/end/end.css ***!
@@ -107,26 +127,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/end/end.js":
-/*!************************!*\
-  !*** ./src/end/end.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure';\n    figure.className = 'figure';\n    container2.appendChild(figure);\n    let image = document.createElement('img');\n    image.id = 'image';\n    image.alt = \"Wild Pikachu in a Pokéball\";\n    image.src = '../source/Shot_3.jpg';\n    image.width = 540;\n    image.height = 320;\n    container2.appendChild(image);\n    let caption = document.createElement('figcaption');\n    caption.id = 'caption_thundershock';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/end/end.js?");
-
-/***/ }),
-
-/***/ "./src/end/endlink.js":
-/*!****************************!*\
-  !*** ./src/end/endlink.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _end_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./end.css */ \"./src/end/end.css\");\n/* harmony import */ var _end_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./end.js */ \"./src/end/end.js\");\n\n\n\nfunction end(){\n\n\n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container'\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"h1_thundershock\";\n    titleindex.className=\"h1_thundershock\";\n    titleindex.innerHTML = \"You have Defeated your Rival!\";\n    container.appendChild(titleindex);\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p1_thundershock\";\n    paragraph.className =\"p1_thundershock\";\n    paragraph.innerHTML = \"After a tough battle, you have defeated your rival. You have earned some respect (and cash too!). Let's Prepare for your next battle...\";\n    container.appendChild(paragraph);\n    let br = document.createElement('br');\n    container.appendChild(br);\n    container.appendChild(br);\n\n    let container2 = document.createElement('div');\n    container2.id=\"encounter_img\";\n    container2.className=\"encounter_img\";\n    \n    \n    container2 = (0,_end_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    container.appendChild(container2);\n\n    let paragraph2 = document.createElement('p');\n    paragraph2.id =\"p2_thundershock\";\n    paragraph2.className =\"p2_thundershock\";\n    paragraph2.innerHTML = \"If you want to re-start the story:\";\n    container.appendChild(paragraph2);\n\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    container.appendChild(list)\n    listindex.id = 'link_';\n    listindex.className = 'link_';\n    list.appendChild(listindex);\n    let link = document.createElement('a');\n    link.id = 'link_catch';\n    link.className = 'link_catch';\n    link.innerHTML = \"Go back to beggining\";\n    link.href='index.html';\n    listindex.appendChild(link);\n    container.appendChild(br);\n    \n    let container3 = document.createElement('div');\n    container3.id = 'catch_file';\n    container3.className = 'catch_file';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    \n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.className = 'file';\n    progress.max='100';\n    progress.value = '100.00';\n    container3.appendChild(progress);\n\n    document.getElementById('end').appendChild(container);\n\n}\nend();\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/end/endlink.js?");
 
 /***/ })
 

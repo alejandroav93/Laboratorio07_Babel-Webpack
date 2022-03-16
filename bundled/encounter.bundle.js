@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/encounter/encounter.js":
+/*!************************************!*\
+  !*** ./src/encounter/encounter.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2) {\n  var figure = document.createElement('figure');\n  figure.id = 'figure_encounter';\n  figure.className = 'figure_encounter';\n  container2.appendChild(figure);\n  var image = document.createElement('img');\n  image.id = 'image';\n  image.alt = 'Wild Pikachu';\n  image.src = '../source/Shot_1.jpg';\n  image.width = 540;\n  image.height = 320;\n  container2.appendChild(image);\n  var caption = document.createElement('figcaption');\n  caption.id = 'caption_encounter';\n  caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n  container2.appendChild(caption);\n  return container2;\n}\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/encounter/encounter.js?");
+
+/***/ }),
+
+/***/ "./src/encounter/encounterlink.js":
+/*!****************************************!*\
+  !*** ./src/encounter/encounterlink.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _encounter_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./encounter.css */ \"./src/encounter/encounter.css\");\n/* harmony import */ var _encounter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./encounter.js */ \"./src/encounter/encounter.js\");\n\n\n\nfunction encounter() {\n  var container = document.createElement('div');\n  container.style.width = '100%';\n  container.style.height = '100%';\n  container.id = 'container';\n  container.className = 'container';\n  var titleindex = document.createElement('h1');\n  titleindex.id = \"header_encounter\";\n  titleindex.className = \"header_encounter\";\n  titleindex.innerHTML = \"Encounter with Pikachu\";\n  container.appendChild(titleindex);\n  var paragraph = document.createElement('p');\n  paragraph.id = \"p_encounter\";\n  paragraph.className = \"p_encounter\";\n  paragraph.innerHTML = \" You are starting your journey as a Pokémon trainer, as soon as you leave your house you encounter a wild Pikachu in the tall grass! It's time to catch your first Pokémon.\";\n  container.appendChild(paragraph);\n  var container2 = document.createElement('div');\n  container2.id = \"encounter_img\";\n  container2.className = \"encounter_img\";\n  container.appendChild(container2);\n  container2 = (0,_encounter_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n  var list = document.createElement('ul');\n  var listindex = document.createElement('li');\n  container.appendChild(list);\n  listindex.id = 'list_encounter';\n  listindex.className = 'list_encounter';\n  list.appendChild(listindex);\n  var link = document.createElement('a');\n  link.id = 'link';\n  link.className = 'link';\n  link.innerHTML = \"Throw Pokéball\";\n  link.href = 'catch.html';\n  listindex.appendChild(link);\n  var container3 = document.createElement('div');\n  container3.id = 'list';\n  container3.className = 'list';\n  container.appendChild(container3);\n  var label = document.createElement('label');\n  label.id = 'label_file';\n  label.className = 'label_file';\n  label.innerHTML = 'Story progress';\n  container3.appendChild(label);\n  var progress = document.createElement('progress');\n  var br = document.createElement('br');\n  container3.appendChild(br);\n  progress.id = 'file';\n  progress.className = 'file';\n  progress.max = '100';\n  progress.value = '12.50';\n  container3.appendChild(progress);\n  document.getElementById('encounter').appendChild(container);\n}\n\nencounter();\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/encounter/encounterlink.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/encounter/encounter.css":
 /*!***************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/encounter/encounter.css ***!
@@ -107,26 +127,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/encounter/encounter.js":
-/*!************************************!*\
-  !*** ./src/encounter/encounter.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imagecatch\": () => (/* binding */ imagecatch)\n/* harmony export */ });\nfunction imagecatch(container2){\n        \n    let figure = document.createElement('figure');\n    figure.id = 'figure_encounter';\n    figure.className = 'figure_encounter';\n    container2.appendChild(figure);\n    let image = document.createElement('img');\n    image.id = 'image';\n    image.alt = 'Wild Pikachu';\n    image.src = '../source/Shot_1.jpg';\n    image.width = 540;\n    image.height = 320;\n    container2.appendChild(image);\n    let caption = document.createElement('figcaption');\n    caption.id = 'caption_encounter';\n    caption.innerHTML = \"Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd\";\n    container2.appendChild(caption);\n\n    return container2;\n}\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/encounter/encounter.js?");
-
-/***/ }),
-
-/***/ "./src/encounter/encounterlink.js":
-/*!****************************************!*\
-  !*** ./src/encounter/encounterlink.js ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _encounter_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./encounter.css */ \"./src/encounter/encounter.css\");\n/* harmony import */ var _encounter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./encounter.js */ \"./src/encounter/encounter.js\");\n\n\n\nfunction encounter(){\n\n    let container = document.createElement('div');\n    container.style.width = '100%';\n    container.style.height = '100%';\n    container.id = 'container';\n    container.className = 'container'\n    \n    let titleindex = document.createElement('h1');\n    titleindex.id=\"header_encounter\";\n    titleindex.className=\"header_encounter\";\n    titleindex.innerHTML = \"Encounter with Pikachu\";\n    container.appendChild(titleindex);\n\n    let paragraph = document.createElement('p');\n    paragraph.id =\"p_encounter\";\n    paragraph.className =\"p_encounter\";\n    paragraph.innerHTML = \" You are starting your journey as a Pokémon trainer, as soon as you leave your house you encounter a wild Pikachu in the tall grass! It's time to catch your first Pokémon.\";\n    container.appendChild(paragraph);\n\n    let container2 = document.createElement('div');\n    container2.id=\"encounter_img\";\n    container2.className=\"encounter_img\";\n    container.appendChild(container2);\n\n    container2 = (0,_encounter_js__WEBPACK_IMPORTED_MODULE_1__.imagecatch)(container2);\n\n    let list = document.createElement('ul');\n    let listindex = document.createElement('li');\n    container.appendChild(list)\n    listindex.id = 'list_encounter';\n    listindex.className = 'list_encounter';\n    list.appendChild(listindex);\n    let link = document.createElement('a');\n    link.id = 'link';\n    link.className = 'link';\n    link.innerHTML =\"Throw Pokéball\";\n    link.href='catch.html';\n    listindex.appendChild(link);\n\n    let container3 = document.createElement('div');\n    container3.id = 'list';\n    container3.className = 'list';\n    container.appendChild(container3);\n    let label = document.createElement('label');\n    label.id = 'label_file';\n    label.className = 'label_file';\n    label.innerHTML= 'Story progress';\n    container3.appendChild(label);\n    let progress = document.createElement('progress');\n    let br = document.createElement('br');\n    container3.appendChild(br);\n    progress.id = 'file';\n    progress.className = 'file';\n    progress.max='100';\n    progress.value = '12.50';\n    container3.appendChild(progress);\n\n    document.getElementById('encounter').appendChild(container);\n}\nencounter();\n\n\n//# sourceURL=webpack://laboratorio07_babel-webpack/./src/encounter/encounterlink.js?");
 
 /***/ })
 
